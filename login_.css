@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+
+#login{
+
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:75vmin;
+    width:50%;
+     display: flex;
+     justify-content: center;
+     padding:15px;
+
+}
+.header{
+    height: 70vmin;
+    width:45%;
+    background-color: coral;
+   }
+
+.row-1{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    font-size: 23px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    font-weight: 400;
+}
+.row-2{
+    margin-left: 20px;
+  
+}
+.row-3{
+    margin-left: 20px;
+   
+}
+
+input{
+    height: 28px;
+    width: 90%;
+    border: none; 
+}
+
+.forgotPassword{
+    text-align: end; 
+    margin-right: 30px;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#btn1{
+    height: 35px;
+    width:60%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#btn1:hover{
+    cursor: pointer;
+  background-color:aqua;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    text-align: center;
+    padding:20px;
+}
+
+#foot:hover{
+    cursor: pointer;
+}
